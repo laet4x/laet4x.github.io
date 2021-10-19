@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>_laet4x/blog$</title>
+    <link href="/assets/img/xbow.jpg" rel="icon">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>_laet4x/blog$</h1>
+        <h2>Blog</h2>
+        
+        <section id="downloads">
+          <a href="/" class="btn">Home</a>
+          <a href="/blog/" class="btn">Blog</a>
+        </section>
+      </div>
+                                                        
+    </header>
+    
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+                            
+  </body>
+</html>
