@@ -345,11 +345,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <iframe src="assets/mp3/background.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe> 
 
-  <audio autoplay loop>
+  <audio autoplay loop  id="playAudio">
     <source src="assets/mp3/background.mp3">
-  Your browser does not support the audio element.
-  </audio>
+ </audio>
+ <script>
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if (!isChrome){
+        $('#iframeAudio').remove()
+    }
+    else {
+        $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+    }
+ </script>
 
 </body>
 
