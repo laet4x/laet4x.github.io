@@ -1,0 +1,29 @@
+/*
+* Remix Icon v2.5.0
+* https://remixicon.com
+* https://github.com/Remix-Design/RemixIcon
+*
+* Copyright RemixIcon.com
+* Released under the Apache License Version 2.0
+*
+* Date: 2020-05-23
+*/
+@font-face{font-family:remixicon;src:url(remixicon.woff2) format('woff2');font-display:block}[class^="ri-"],[class*=" ri-"]{font-family:remixicon!important;font-weight:normal;font-style:normal;-webkit-font-smoothing:antialiased}.ri-arrow-right-line:before { content: "\ea6c"; }
+.ri-arrow-right-s-line:before { content: "\ea6e"; }
+.ri-arrow-right-up-line:before { content: "\ea70"; }
+.ri-award-fill:before { content: "\ea89"; }
+.ri-award-line:before { content: "\ea8a"; }
+.ri-building-4-line:before { content: "\eb0d"; }
+.ri-discord-fill:before { content: "\ec37"; }
+.ri-external-link-line:before { content: "\ecaf"; }
+.ri-facebook-fill:before { content: "\ecbc"; }
+.ri-github-fill:before { content: "\edca"; }
+.ri-map-pin-line:before { content: "\ef14"; }
+.ri-menu-line:before { content: "\ef3e"; }
+.ri-mic-line:before { content: "\ef50"; }
+.ri-radar-line:before { content: "\f04c"; }
+.ri-shield-keyhole-line:before { content: "\f107"; }
+.ri-terminal-box-line:before { content: "\f1f6"; }
+.ri-trophy-fill:before { content: "\f22e"; }
+.ri-tv-2-line:before { content: "\f235"; }
+.ri-twitter-fill:before { content: "\f23a"; }
